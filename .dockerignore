@@ -1,0 +1,26 @@
+# Ignore node_modules (except for production dependencies)
+node_modules
+npm-debug.log
+.git
+
+# Ignore local Next.js build artifacts
+.next
+.out
+.cache
+
+# Ignore logs
+logs
+*.log
+*.log.*
+
+# Ignore Docker-specific files
+Dockerfile
+
+# Ignore editor and OS-specific files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports
+coverage

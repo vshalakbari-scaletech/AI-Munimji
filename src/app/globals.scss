@@ -1,0 +1,35 @@
+@import '../styles/fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	/* Chrome, Safari and Opera */
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	.no-scrollbar {
+		-ms-overflow-style: none;
+		/* IE and Edge */
+		scrollbar-width: none;
+		/* Firefox */
+	}
+
+	::-webkit-scrollbar {
+		@apply h-1 w-1;
+	}
+	::-webkit-scrollbar-track {
+		@apply bg-background;
+	}
+	::-webkit-scrollbar-thumb {
+		@apply rounded-lg bg-gray-400;
+	}
+}
+
+body {
+	@apply font-space;
+	color: var(--foreground);
+	background: var(--background);
+}
