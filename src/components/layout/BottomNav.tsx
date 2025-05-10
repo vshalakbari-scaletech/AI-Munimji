@@ -25,7 +25,7 @@ const navItems = [
 	{
 		path: '/categories',
 		icon: RiStackLine
-	},
+	}
 ];
 
 export default function BottomNav() {
@@ -33,7 +33,7 @@ export default function BottomNav() {
 
 	return (
 		<nav
-			className='fixed bottom-0 left-0 right-0 z-50 mx-auto flex max-w-[430px] justify-center'
+			// className='fixed bottom-0 left-0 right-0 z-50 mx-auto flex max-w-[430px] justify-center'
 			style={{ background: ACTIVE_BG }}
 		>
 			<div

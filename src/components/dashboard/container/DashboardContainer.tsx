@@ -10,17 +10,17 @@ import Welcome from '../Welcome';
 export const DashboardContainer = () => {
 	const [activeTab, setActiveTab] = useState<TabType>('Daily');
 
-  return (
-    <div className="min-h-screen bg-[#BFF2DB] relative">
-      <Welcome />
-      <BalanceCard />
-      <main className="max-w-md mx-auto px-4 pb-32 -mt-8 bg-white rounded-t-3xl min-h-[calc(100vh-200px)]">
-        <div className="mb-6 pt-5 mt-5">
-          <SavingsCard />
-        </div>
-        <TabSwitcher activeTab={activeTab} onTabChange={setActiveTab} />
-        <TransactionList activeTab={activeTab} />
-      </main>
-    </div>
-  );
-}
+	return (
+		<div className=''>
+			<Welcome />
+			<BalanceCard />
+			<main className='mx-auto -mt-8 max-w-md rounded-t-3xl bg-white px-4 pb-32'>
+				<div className='mb-6 mt-5 pt-5'>
+					<SavingsCard />
+				</div>
+				<TabSwitcher activeTab={activeTab} onTabChange={setActiveTab} />
+				<TransactionList activeTab={activeTab} />
+			</main>
+		</div>
+	);
+};
