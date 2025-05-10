@@ -1,25 +1,25 @@
-import { RiCarLine, RiBox3Line } from 'react-icons/ri';
+import { RiCarLine } from 'react-icons/ri';
 
 export default function SavingsCard() {
-  return (
-    <div className="flex bg-background rounded-3xl shadow-md p-4 items-center gap-4 border border-[#BFF2DB]">
-      <div className="flex flex-col items-center flex-1">
-        <div className="w-14 h-14 flex items-center justify-center rounded-full border-4 border-white bg-white mb-2">
-          <RiCarLine className="text-primary text-3xl" />
-        </div>
-        <span className="text-xs text-white font-semibold mt-1">Savings On Goals</span>
-      </div>
-      <div className="w-px bg-[#BFF2DB] h-14 mx-2" />
-      <div className="flex flex-col flex-1 gap-2">
-        <div>
-          <span className="block text-xs text-gray-500">Revenue Last Week</span>
-          <span className="block text-lg font-bold text-black">₹4,000.00</span>
-        </div>
-        <div>
-          <span className="block text-xs text-gray-500">Food Last Week</span>
-          <span className="block text-lg font-bold text-white">-₹100.00</span>
-        </div>
-      </div>
-    </div>
-  );
-} 
+	return (
+		<div className='bg-background flex items-center gap-4 rounded-3xl border border-[#BFF2DB] p-4 shadow-md'>
+			<div className='flex flex-1 flex-col items-center'>
+				<div className='mb-2 flex h-14 w-14 items-center justify-center rounded-full border-4 border-white bg-white'>
+					<RiCarLine className='text-primary text-3xl' />
+				</div>
+				<span className='mt-1 text-xs font-semibold text-white'>Savings On Goals</span>
+			</div>
+			<div className='mx-2 h-14 w-px bg-[#BFF2DB]' />
+			<div className='flex flex-1 flex-col gap-2'>
+				<div>
+					<span className='block text-xs text-gray-500'>Revenue Last Week</span>
+					<span className='block text-lg font-bold text-black'>₹4,000.00</span>
+				</div>
+				<div>
+					<span className='block text-xs text-gray-500'>Food Last Week</span>
+					<span className='block text-lg font-bold text-white'>-₹100.00</span>
+				</div>
+			</div>
+		</div>
+	);
+}
