@@ -10,29 +10,44 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
+				// Primary brand colors
 				primary: {
-					main: '#6C5CE7',
+					DEFAULT: '#1ED495', // Main green (active pill, progress, etc)
+					light: '#BFF2DB',   // Light green (navbar bg, progress bg)
+					dark: '#20C997',    // Slightly darker green (for hover, etc)
+				},
+				secondary: {
+					DEFAULT: '#6C5CE7', // Purple (if used)
 					light: '#A29BFE',
 					dark: '#5649C0',
 				},
-				secondary: {
-					main: '#00B894',
+				accent: {
+					DEFAULT: '#00B894', // Teal accent (used in some buttons)
 					light: '#55EFC4',
 					dark: '#00A884',
 				},
+				// UI backgrounds
 				background: {
-					default: '#FFFFFF',
-					paper: '#F8F9FA',
-					dark: '#2D3436',
+					DEFAULT: '#FFFFFF', // Main app background
+					muted: '#F8F9FA',   // Card/paper background
+					dark: '#2D3436',    // Dark mode bg
 				},
+				surface: {
+					DEFAULT: '#F8F9FA', // Card/paper
+				},
+				// Text colors
 				text: {
-					primary: '#2D3436',
+					DEFAULT: '#1A2E22', // Icon/text dark (navbar icons)
+					primary: '#2D3436', // Main text
 					secondary: '#636E72',
 					disabled: '#B2BEC3',
 				},
+				// Status colors
 				error: '#FF7675',
 				warning: '#FFA502',
 				success: '#00B894',
+				info: '#1ED495',
+				// Greys
 				grey: {
 					50: '#F8F9FA',
 					100: '#F1F3F5',
