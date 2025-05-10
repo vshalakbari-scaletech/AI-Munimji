@@ -8,8 +8,10 @@ import 'react-toastify/dist/ReactToastify.css';
 import './globals.scss';
 
 export const metadata: Metadata = {
-	title: 'Scaletech X ',
-	description: 'Scaletech X'
+	title: 'AI Munimji - Financial Management',
+	description: 'Manage your finances efficiently with powerful tracking and analytics tools',
+	viewport: 'width=device-width, initial-scale=1',
+	robots: 'index, follow'
 };
 
 export default function RootLayout({
