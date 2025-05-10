@@ -15,11 +15,11 @@ const TransactionPage = () => {
 						<div className='flex justify-between'>
 							<div className='mt-4 flex flex-col justify-between text-sm'>
 								<p>Total Balance</p>
-								<p className='text-2xl font-medium text-gray-600'>$7,783.00</p>
+								<p className='text-2xl font-medium text-gray-600'>&#8377;7,783.00</p>
 							</div>
 							<div className='mt-4 flex flex-col justify-between text-sm'>
 								<p>Total Expense</p>
-								<p className='text-2xl font-medium text-red-500'>-$1,187.40</p>
+								<p className='text-2xl font-medium text-red-500'>-&#8377;1,187.40</p>
 							</div>
 						</div>
 						<div className='mt-4 h-2 w-full rounded-full bg-gray-200'>
@@ -48,7 +48,7 @@ const TransactionPage = () => {
 							</div>
 							<div className='text-right'>
 								<p className='text-xs text-gray-600'>Monthly</p>
-								<p className='text-sm font-medium text-teal-500'>$4,000.00</p>
+								<p className='text-sm font-medium text-teal-500'>&#8377;4,000.00</p>
 							</div>
 						</div>
 
@@ -64,7 +64,7 @@ const TransactionPage = () => {
 							</div>
 							<div className='text-right'>
 								<p className='text-xs text-gray-600'>Pantry</p>
-								<p className='text-sm font-medium text-red-500'>-$100.00</p>
+								<p className='text-sm font-medium text-red-500'>-&#8377;100.00</p>
 							</div>
 						</div>
 
@@ -80,7 +80,7 @@ const TransactionPage = () => {
 							</div>
 							<div className='text-right'>
 								<p className='text-xs text-gray-600'>Rent</p>
-								<p className='text-sm font-medium text-red-500'>-$674.40</p>
+								<p className='text-sm font-medium text-red-500'>-&#8377;674.40</p>
 							</div>
 						</div>
 
@@ -96,7 +96,7 @@ const TransactionPage = () => {
 							</div>
 							<div className='text-right'>
 								<p className='text-xs text-gray-600'>Fuel</p>
-								<p className='text-sm font-medium text-red-500'>-$41.3</p>
+								<p className='text-sm font-medium text-red-500'>-&#8377;41.3</p>
 							</div>
 						</div>
 					</div>
@@ -116,7 +116,7 @@ const TransactionPage = () => {
 							</div>
 							<div className='text-right'>
 								<p className='text-xs text-gray-600'>Dinner</p>
-								<p className='text-sm font-medium text-red-500'>-$70.40</p>
+								<p className='text-sm font-medium text-red-500'>-&#8377;70.40</p>
 							</div>
 						</div>
 					</div>
