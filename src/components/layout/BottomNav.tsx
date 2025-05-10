@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { RiHome2Line, RiBarChart2Line, RiExchangeLine, RiStackLine, RiUser3Line } from 'react-icons/ri';
+import { RiHome2Line, RiBarChart2Line, RiExchangeLine, RiStackLine } from 'react-icons/ri';
 
 // Custom green from screenshot
 const ACTIVE_BG = '#BFF2DB'; // light green background for navbar
