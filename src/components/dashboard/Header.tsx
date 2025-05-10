@@ -6,21 +6,19 @@ interface HeaderProps {
   title: string;
 }
 
-export default function DashboardHeader({ title }: HeaderProps) {
+export default function DashboardHeader() {
   return (
-    <header className="sticky top-0 z-30 flex items-center justify-between px-4 py-4 bg-white shadow-sm">
-      <button
-        className="p-2 rounded-full bg-background-muted"
-        // onClick={onBack}
-        aria-label="Go back"
-        type="button"
-      >
-        <RiArrowLeftLine className="text-text-primary" size={24} />
-      </button>
-      <h1 className="flex-1 text-center text-lg font-bold text-text-primary -ml-10">{title}</h1>
-      <button className="p-2 rounded-full bg-background-muted" aria-label="Notifications" type="button">
-        <RiNotification3Line className="text-primary-dark" size={24} />
-      </button>
+    <header className="w-full bg-background px-6 pt-6 pb-8 flex flex-col gap-2 relative">
+      <div className="flex items-center justify-between">
+        <div />
+        <button className="p-2 rounded-full bg-white/60" aria-label="Notifications" type="button">
+          <RiNotification3Line className="text-primary-dark" size={24} />
+        </button>
+      </div>
+      <div className="mt-2">
+        <h2 className="text-2xl font-bold text-black">Hi, Welcome Back</h2>
+        <p className="text-sm text-black/70 mt-1">Good Morning</p>
+      </div>
     </header>
   );
 } 
