@@ -6,7 +6,7 @@ const Layout: React.FC<PropsWithChildren> = ({ children }) => {
 	return (
 		<div className='relative w-full'>
 			<div className='bg-background-default min-h-screen'>
-				<main className='pb-20'>{children}</main>
+				<main>{children}</main>
 				<BottomNav />
 			</div>
 		</div>
