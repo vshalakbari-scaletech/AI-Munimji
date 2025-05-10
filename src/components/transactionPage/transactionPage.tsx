@@ -13,17 +13,22 @@ const TransactionPage = () => {
 				<div className='flex w-full justify-center'>
 					<div className='mb-6 w-full max-w-[350px] rounded-2xl p-4 text-center'>
 						<div className='flex justify-between'>
-							<div className='mt-4 flex flex-col justify-between text-sm'>
+							<div className='mt-4 flex w-[50%] flex-col justify-between border-r-2 border-[white] text-sm'>
 								<p>Total Balance</p>
-								<p className='text-2xl font-medium text-gray-600'>&#8377;7,783.00</p>
+								<p className='color-white text-2xl font-black text-white'>&#8377;7,783.00</p>
 							</div>
-							<div className='mt-4 flex flex-col justify-between text-sm'>
+							<div className='mt-4 flex w-[50%] flex-col justify-between text-sm'>
 								<p>Total Expense</p>
-								<p className='text-2xl font-medium text-red-500'>-&#8377;1,187.40</p>
+								<p className='text-2xl font-black text-[#0068FF]'>-&#8377;1,187.40</p>
 							</div>
 						</div>
-						<div className='mt-4 h-2 w-full rounded-full bg-gray-200'>
-							<div className='h-2 rounded-full bg-teal-500' style={{ width: '30%' }}></div>
+						<div className='relative mt-4 h-[27px] w-full items-center rounded-full bg-[white]'>
+							<div className='h-[27px] rounded-full bg-[#052224] text-white' style={{ width: '30%' }}>
+								30%
+							</div>
+							<div className='color-white absolute right-[11px] top-0 font-black text-black'>
+								&#8377;20,000.00
+							</div>
 						</div>
 					</div>
 				</div>
