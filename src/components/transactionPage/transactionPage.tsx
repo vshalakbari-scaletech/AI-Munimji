@@ -4,7 +4,7 @@ import React from 'react';
 
 const TransactionPage = () => {
 	return (
-		<div className='h-[calc(100vh-138px)] bg-background from-teal-600 to-teal-300 p-4'>
+		<div className='h-[calc(100vh-138px)] overflow-y-scroll bg-background from-teal-600 to-teal-300 p-4'>
 			<div>
 				<div className='mb-6 w-[384px] rounded-2xl border border-gray-200 bg-white p-4 text-center'>
 					<h1 className='text-xs font-medium uppercase text-gray-500'>Total Balance</h1>

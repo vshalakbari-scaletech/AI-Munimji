@@ -36,7 +36,10 @@ export default function BottomNav() {
 	const pathname = usePathname();
 
 	return (
-		<nav className='fixed bottom-0 left-0 right-0 z-50 flex justify-center' style={{ background: ACTIVE_BG }}>
+		<nav
+			className='fixed bottom-0 left-0 right-0 z-50 mx-auto flex max-w-[430px] justify-center'
+			style={{ background: ACTIVE_BG }}
+		>
 			<div
 				className='flex w-full max-w-md items-center justify-between px-6 py-3'
 				style={{ borderTopLeftRadius: 32, borderTopRightRadius: 32, background: ACTIVE_BG }}
