@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function AnalyticsPage() {
 	return (
-		<div className='p-4'>
+		<div className=''>
 			<DashboardHeader title='Analytics' />
 			{/* Add your analytics content here */}
 			<div className=' flex flex-col items-center justify-center h-[calc(100vh-138px)]'>
