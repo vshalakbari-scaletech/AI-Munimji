@@ -65,7 +65,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 		const token = authService.getAccessToken();
 		if (!user || !token) {
 			// logout();
-			router.push('/login');
+			// router.push('/login');
 		} else {
 			if (token) setToken(token);
 			if (user) setUser(user);
