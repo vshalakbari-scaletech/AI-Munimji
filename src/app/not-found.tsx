@@ -7,14 +7,14 @@ const NotFound = () => {
 	const router = useRouter();
 
 	const handleGoHome = () => {
-		router.push('/messages');
+		router.push('/dashboard');
 	};
 
 	return (
-		<div className='flex h-screen items-center justify-center bg-background'>
+		<div className='bg-background flex h-screen items-center justify-center'>
 			<div className='text-center'>
-				<h1 className='text-6xl font-bold text-primary'>404</h1>
-				<p className='mt-4 text-lg text-secondary'>Oops! Page not found.</p>
+				<h1 className='text-primary text-6xl font-bold'>404</h1>
+				<p className='text-secondary mt-4 text-lg'>Oops! Page not found.</p>
 				<Button onClick={handleGoHome} variant='primary' className='mt-6'>
 					Go to Homepage
 				</Button>

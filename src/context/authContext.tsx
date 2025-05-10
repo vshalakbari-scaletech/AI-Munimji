@@ -39,7 +39,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 						setToken(token);
 						setUser(user);
 						// go to dashboard once authenticated
-						router.push('/messages');
+						router.push('/dashboard');
 						resolve(user);
 					})
 					.catch((err) => {
@@ -69,7 +69,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 		} else {
 			if (token) setToken(token);
 			if (user) setUser(user);
-			// router.push('/messages');
+			// router.push('/dashboard');
 		}
 	}, [logout, router]);
 
