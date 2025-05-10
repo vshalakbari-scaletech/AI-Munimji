@@ -1,24 +1,26 @@
-"use client"
+'use client';
 
 import { RiArrowLeftLine, RiNotification3Line } from 'react-icons/ri';
 
 interface HeaderProps {
-  title: string;
+	title: string;
 }
 
-export default function DashboardHeader() {
-  return (
-    <header className="w-full bg-background px-6 pt-6 pb-8 flex flex-col gap-2 relative">
-      <div className="flex items-center justify-between">
-        <div />
-        <button className="p-2 rounded-full bg-white/60" aria-label="Notifications" type="button">
-          <RiNotification3Line className="text-primary-dark" size={24} />
-        </button>
-      </div>
-      <div className="mt-2">
-        <h2 className="text-2xl font-bold text-black">Hi, Welcome Back</h2>
-        <p className="text-sm text-black/70 mt-1">Good Morning</p>
-      </div>
-    </header>
-  );
-} 
+export default function DashboardHeader({ title }: HeaderProps) {
+	return (
+		<header className='sticky top-0 z-30 flex items-center justify-between bg-white px-4 py-4 shadow-sm'>
+			<button
+				className='bg-background-muted rounded-full p-2'
+				// onClick={onBack}
+				aria-label='Go back'
+				type='button'
+			>
+				<RiArrowLeftLine className='text-text-primary' size={24} />
+			</button>
+			<h1 className='text-text-primary -ml-10 flex-1 text-center text-lg font-bold'>{title}</h1>
+			<button className='bg-background-muted rounded-full p-2' aria-label='Notifications' type='button'>
+				<RiNotification3Line className='text-primary-dark' size={24} />
+			</button>
+		</header>
+	);
+}
