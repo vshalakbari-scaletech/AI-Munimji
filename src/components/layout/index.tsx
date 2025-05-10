@@ -5,7 +5,7 @@ import BottomNav from './BottomNav';
 const Layout: React.FC<PropsWithChildren> = ({ children }) => {
 	return (
 		<div className='relative w-full'>
-			<div className='bg-background-default min-h-screen'>
+			<div className='bg-background-default mx-auto min-h-screen max-w-[430px]'>
 				<main>{children}</main>
 				<BottomNav />
 			</div>

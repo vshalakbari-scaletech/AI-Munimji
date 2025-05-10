@@ -8,10 +8,13 @@ export const metadata: Metadata = {
 
 export default function CategoriesPage() {
 	return (
-		<div className='p-4'>
+		<div className=''>
 			<DashboardHeader title='Categories' />
 			{/* Add your analytics content here */}
-            <p className='text-center text-text-primary'>Coming Soon</p>
+            <div className=' flex flex-col items-center justify-center h-[calc(100vh-138px)]'>
+
+            <p className='text-center text-text-primary'>Coming Soon...</p>
+            </div>
 		</div>
 	);
 }
