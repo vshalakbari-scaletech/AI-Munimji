@@ -23,13 +23,9 @@ const navItems = [
 		icon: RiExchangeLine
 	},
 	{
-		path: '/layers',
+		path: '/categories',
 		icon: RiStackLine
 	},
-	{
-		path: '/profile',
-		icon: RiUser3Line
-	}
 ];
 
 export default function BottomNav() {

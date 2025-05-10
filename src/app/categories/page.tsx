@@ -6,10 +6,10 @@ export const metadata: Metadata = {
 	description: 'Gain insights into your financial data with comprehensive analytics and reporting tools'
 };
 
-export default function AnalyticsPage() {
+export default function CategoriesPage() {
 	return (
 		<div className='p-4'>
-			<DashboardHeader title='Analytics' />
+			<DashboardHeader title='Categories' />
 			{/* Add your analytics content here */}
             <p className='text-center text-text-primary'>Coming Soon</p>
 		</div>

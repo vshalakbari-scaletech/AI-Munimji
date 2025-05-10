@@ -11,10 +11,10 @@ export const DashboardContainer = () => {
   const [activeTab, setActiveTab] = useState<TabType>('Daily');
 
   return (
-    <div className="min-h-screen bg-[#BFF2DB]">
+    <div className="min-h-screen bg-[#BFF2DB] relative">
       <Welcome />
       <BalanceCard />
-      <main className="max-w-md mx-auto px-4 pb-24 -mt-8 bg-white rounded-t-3xl">
+      <main className="max-w-md mx-auto px-4 pb-32 -mt-8 bg-white rounded-t-3xl min-h-[calc(100vh-200px)]">
         <div className="mb-6 pt-5 mt-5">
           <SavingsCard />
         </div>
