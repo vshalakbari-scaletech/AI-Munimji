@@ -12,7 +12,7 @@ export default {
 			colors: {
 				primary: '#25ADD0',
 				secondary: '#17161A',
-				background: '#F4F7FE',
+				background: '#00D09E',
 				foreground: '#FFFFFF',
 				neutral: '#F1F2F4',
 				accent: '#e95050',
